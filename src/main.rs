@@ -231,7 +231,7 @@ fn create_ball(
             center: Vec2::ZERO
         },
         DrawMode::Outlined{
-            fill_mode: FillMode::color(Color::RED),
+            fill_mode: FillMode::color(Color::GREEN),
             outline_mode: StrokeMode::new(Color::BLACK,1.),
         },
         Transform::default(),
